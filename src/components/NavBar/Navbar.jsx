@@ -3,7 +3,9 @@ import { contenedor } from "./navbar.module.css";
 import { nombreTienda } from "./navbar.module.css";
 import { contenedor1 } from "./navbar.module.css";
 import { contenedor2 } from "./navbar.module.css";
+import { categorias } from "./navbar.module.css";
 import CartWidget from "../CartWidget/CartWidget";
+
 export default function NavBar({count}) {
   return (
     <>
@@ -17,9 +19,16 @@ export default function NavBar({count}) {
 
                     </div>
                     <div className={contenedor2}>
-                        <a href="" className={hola}>
+                        <a href="" className={hola}ropa>
                             Ropa
+                            <ul className={categorias}>
+                            <a href=""><li>Calzado</li></a> 
+                            <a href=""><li>Camperas</li></a>   
+                            <a href=""><li>Pantalones</li></a>
+                            </ul>
                         </a>
+                        
+                    
                         <a href="" className={hola}>
                             Nosotros
                         </a>

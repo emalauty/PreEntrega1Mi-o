@@ -6,11 +6,26 @@
     font-size: 30px ;
     height: 15%;
     text-decoration: none;
+
     
     
   }
 .hola:hover{
     border-bottom: 5px solid rgb(255, 255, 255);
+}
+.categorias {
+    list-style: none;
+    padding: 0%;
+}
+
+.categorias li{
+    color: white;
+}
+.categorias li:hover{
+    color: rgb(191, 193, 196);
+}
+a{
+    text-decoration: none;
 }
 .nombreTienda{
 
@@ -39,11 +54,11 @@
 }
 .contenedor1{
     display: flex;
-    justify-content: start;
 }
 .contenedor2{
     color: red;
     display: flex;
-    justify-content: end;
+    text-align: center;
+ 
 }
 
