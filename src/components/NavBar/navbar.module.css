@@ -1,0 +1,49 @@
+.hola {
+    
+    color: white;
+    font-weight: 500;
+    margin: 20px;
+    font-size: 30px ;
+    height: 15%;
+    text-decoration: none;
+    
+    
+  }
+.hola:hover{
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.nombreTienda{
+
+    color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);;
+    font-weight: 500;
+    margin: 20px;
+    font-size: 30px ;
+    height: 15%;
+    text-decoration: none;
+   
+
+
+}
+.nombreTienda:hover{
+    border-bottom: 5px solid black;
+}
+.contenedor {
+   color: black;
+   width: 100%;
+   height: 300px;
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+   
+   
+}
+.contenedor1{
+    display: flex;
+    justify-content: start;
+}
+.contenedor2{
+    color: red;
+    display: flex;
+    justify-content: end;
+}
+
