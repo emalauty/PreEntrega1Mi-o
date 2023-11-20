@@ -16,6 +16,7 @@
 .categorias {
     list-style: none;
     padding: 0%;
+    
 }
 
 .categorias li{
@@ -23,6 +24,7 @@
 }
 .categorias li:hover{
     color: rgb(191, 193, 196);
+    display: block;
 }
 a{
     text-decoration: none;

@@ -4,7 +4,7 @@ export default function CartWidget({count}) {
     return (
       <>
       
-          <a href="" className={hola}>
+      <a href="" className={hola}>
           🛒
           </a>           
           <span className={carritoCount}>{count}</span>
