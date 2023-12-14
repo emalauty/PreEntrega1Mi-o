@@ -8,7 +8,9 @@ import CartWidget from "../CartWidget/CartWidget";
 import { Link, NavLink } from "react-router-dom";
 
 export default function NavBar({count}) {
+  
   return (
+
     <>
       <header>
         <nav className={contenedor}>
@@ -20,17 +22,18 @@ export default function NavBar({count}) {
           <div className={categorias}>
           <ul>
             <li>
-                <NavLink to={"/category/celular"}>Celulares</NavLink>
+                <NavLink to={"/category/remera"}>Remeras</NavLink>
             </li>
             <li>
-                <NavLink to={"/category/tablet"}>Tablets</NavLink>
+                <NavLink to={"/category/pantalon"}>Pantalones</NavLink>
             </li>
             <li>
-                <NavLink to={"/category/notebook"}>Notebooks</NavLink>
+                <NavLink to={"/category/zapatilla"}>Zapatillas</NavLink>
             </li>
           </ul>
           </div>
           <CartWidget count={count} />
+          
         </nav>
       </header>
     </>

@@ -1,0 +1,28 @@
+.itemimg{
+    width: 35%;
+    
+    object-fit: cover;
+}
+.itemheader{
+    width: 100%;
+
+}
+.itemcard{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+    font-size: larger;
+}
+.itemfooter{
+    border: black solid 2px;
+    padding: 15px;
+}
+.option{
+    
+}
+.pinfo{
+   
+}
+.hola{
+    
+}
